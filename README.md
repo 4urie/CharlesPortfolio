@@ -21,7 +21,7 @@
 
 ### Demo Screeshots
 
-![Pfolio Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Pfolio Desktop Demo](./readme-images/ss.png "Desktop Demo")
 
 ### Prerequisites
 
