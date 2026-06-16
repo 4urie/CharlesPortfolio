@@ -1,739 +1,320 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Kane Williams - Web & App Developer</title>
-  <meta name="title" content="Kane Williams - Web & App Developer">
-  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
-
-  <!-- 
-    - favicon
-  -->
+  <title>Charles Martin Motoy - BSIT Student | Aspiring Web & Mobile Developer</title>
+  <meta name="title" content="Charles Martin Motoy - BSIT Student | Aspiring Web & Mobile Developer">
+  <meta name="description" content="Charles Martin Motoy's modern portfolio showcasing web development, mobile app development, UI/UX design, and software projects.">
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- 
-    - custom css link
-  -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
-
 </head>
 
 <body>
 
-  <!-- 
-    - #PRELOADER
-  -->
-
-  <div class="preloader" data-preloader>
-    <div class="circle"></div>
+  <div class="preloader" data-preloader aria-hidden="true">
+    <div class="preloader__ring"></div>
   </div>
 
-
-
-
-
-  <!-- 
-    - #HEADER
-  -->
-
   <header class="header" data-header>
-    <div class="container">
-
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="Charles Martin Motoy home">
+        <span class="logo__mark">CM</span>
+        <span class="logo__text">Charles Motoy</span>
       </a>
 
-      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu" aria-expanded="false">
         <span class="line line-1"></span>
         <span class="line line-2"></span>
       </button>
 
-      <nav class="navbar" data-navbar>
+      <nav class="navbar" data-navbar aria-label="Primary">
         <ul class="navbar-list">
-
-          <li>
-            <a href="#" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Resume</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Services</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Portfolio</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Contact</a>
-          </li>
-
+          <li><a href="#home" class="navbar-link">Home</a></li>
+          <li><a href="#about" class="navbar-link">About</a></li>
+          <li><a href="#skills" class="navbar-link">Skills</a></li>
+          <li><a href="#projects" class="navbar-link">Projects</a></li>
+          <li><a href="#experience" class="navbar-link">Experience</a></li>
+          <li><a href="#contact" class="navbar-link">Contact</a></li>
         </ul>
       </nav>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
-
     </div>
   </header>
 
-
-
-
-
   <main>
     <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="section hero" aria-label="home">
-        <div class="container">
-
-          <div class="hero-content">
-
-            <h1 class="h1 hero-title">Kane Williams</h1>
-
-            <p class="hero-subtitle">
-              Creative Web & App Developer
-            </p>
-
-            <div class="hero-banner">
-              <img src="./assets/images/hero-banner.jpg" width="800" height="800" alt="kane williams" class="w-100">
-            </div>
-
+      <section class="hero section" id="home" aria-label="Home">
+        <div class="hero__backdrop"></div>
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <p class="eyebrow">BSIT Student | Aspiring Web & Mobile Developer</p>
+            <h1 class="hero__title">Charles Martin Motoy</h1>
+            <p class="hero__subtitle">BSIT Student & Aspiring Software Developer</p>
             <p class="section-text">
-              Hi, I’m kane williams and I am creative web & app developer who dream making the world better place by
-              creating captivating products.
+              Hello! I'm Charles Martin Motoy, a Bachelor of Science in Information Technology student passionate about web development, mobile applications, and modern digital solutions. I enjoy learning new technologies, building practical projects, and continuously improving my skills as a future software developer.
             </p>
-
-            <a href="#" class="btn has-before">
-              <span class="span">Download CV</span>
-
-              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
-            </a>
-
+            <div class="hero__actions">
+              <a href="./assets/Charles-Martin-Motoy-Resume.pdf" class="btn btn--primary">
+                <span>Download Resume</span>
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="#projects" class="btn btn--ghost">
+                <span>View Projects</span>
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
           </div>
 
+          <div class="hero__visual reveal">
+            <div class="hero-card">
+              <img src="./assets/images/charles.jpg" width="800" height="800" alt="Charles Martin Motoy portrait" class="hero-card__image">
+              <div class="hero-card__badge">
+                <ion-icon name="sparkles-outline" aria-hidden="true"></ion-icon>
+                <span>Modern digital solutions</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="service" aria-labelledby="service-label">
-        <div class="container">
-
-          <div class="title-wrapper">
-
-            <div>
-              <p class="section-subtitle">
-                Services That I Provide
-              </p>
-
-              <h2 class="h2 section-title" id="service-label">Services</h2>
-            </div>
-
-            <p class="section-text">
-              Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
-              velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
-              ornare.
+      <section class="section section--alt" id="about" aria-labelledby="about-title">
+        <div class="container two-col">
+          <div class="section-heading reveal">
+            <p class="section-subtitle">About Me</p>
+            <h2 class="section-title" id="about-title">About Me</h2>
+          </div>
+          <div class="reveal">
+            <p class="section-text section-text--lead">
+              I am an IT student dedicated to creating user-friendly and efficient applications. My interests include web development, mobile app development, UI/UX design, and database management. I enjoy solving problems through technology and working on projects that create meaningful impact.
             </p>
-
           </div>
-
-          <div class="slider" data-slider>
-
-            <ul class="slider-container service-list" data-slider-container>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="desktop-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Website Design</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">01</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="podium-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">SEO Marketing</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">02</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="basket-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">eCommerce</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">03</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="color-filter-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Graphic Design</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">04</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="megaphone-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Digital Marketing</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">05</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="chatbubbles-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Social Media</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">06</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
-
-                </div>
-              </li>
-
-            </ul>
-
-            <div class="slider-controls">
-              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
-                <div class="line"></div>
-                <div class="arrow"></div>
-              </button>
-
-              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
-                <div class="line"></div>
-                <div class="arrow"></div>
-              </button>
-            </div>
-
-          </div>
-
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #SKILLS
-      -->
-
-      <section class="section skills" aria-label="our skills">
+      <section class="section" id="services" aria-labelledby="services-title">
         <div class="container">
-
-          <p class="section-subtitle">I Make The Future</p>
-
-          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
-
-          <div class="skills-wrapper">
-
-            <div>
-              <p class="section-text">
-                Pellentesque magna magna semper dapibus felis necatin aliuen risus. Pellentesque habitant morbi senectus
-                dictum.
-              </p>
-
-              <p class="section-text">
-                Web design magna magna semper dapibus felis necatin aliuen risus. Pellentesque habitant morbi tristique
-                senectus the neuse malesuada nullam ac lorem miss the duru.
-              </p>
-
-              <a href="#" class="btn has-before">info@kwilliams.com</a>
-            </div>
-
-            <div>
-
-              <ul class="skills-list">
-
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Design</p>
-
-                    <data class="progress-value" value="90">90%</data>
-                  </div>
-
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 90%;"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Branding</p>
-
-                    <data class="progress-value" value="80">80%</data>
-                  </div>
-
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 80%;"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Web Design</p>
-
-                    <data class="progress-value" value="95">95%</data>
-                  </div>
-
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 95%;"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Social Media</p>
-
-                    <data class="progress-value" value="85">85%</data>
-                  </div>
-
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 85%;"></div>
-                  </div>
-                </li>
-
-              </ul>
-
-            </div>
-
+          <div class="section-heading reveal">
+            <p class="section-subtitle">What I Do</p>
+            <h2 class="section-title" id="services-title">What I Do</h2>
           </div>
 
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <div class="service-card__icon"><ion-icon name="desktop-outline"></ion-icon></div>
+              <h3>Web Development</h3>
+              <p>Building responsive and modern websites.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-card__icon"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+              <h3>Mobile App Development</h3>
+              <p>Creating Android and cross-platform applications.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-card__icon"><ion-icon name="color-palette-outline"></ion-icon></div>
+              <h3>UI/UX Design</h3>
+              <p>Designing clean and user-friendly interfaces.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-card__icon"><ion-icon name="server-outline"></ion-icon></div>
+              <h3>Database Management</h3>
+              <p>Working with MySQL, Supabase, and data-driven systems.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-card__icon"><ion-icon name="construct-outline"></ion-icon></div>
+              <h3>Software Development</h3>
+              <p>Developing practical software solutions.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-card__icon"><ion-icon name="headset-outline"></ion-icon></div>
+              <h3>Technical Support</h3>
+              <p>Troubleshooting and maintaining computer systems.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #PORTFOLIO
-      -->
-
-      <section class="portfolio" aria-labelledby="portfolio-label">
-
-        <div class="title-wrapper container">
-
-          <div>
-            <p class="section-subtitle" id="portfolio-label">Our Works</p>
-
-            <h2 class="h2 section-title">Portfolio</h2>
-          </div>
-
-          <p class="section-text">
-            Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
-            velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
-            ornare.
-          </p>
-
-        </div>
-
-        <div class="slider" data-slider>
-
-          <ul class="slider-container" data-slider-container>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Lab. 001</h3>
-
-                  <p class="card-text">Website Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Aer Agency</h3>
-
-                  <p class="card-text">Website / Development</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Joker Card</h3>
-
-                  <p class="card-text">UX Design / Web App</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Peaky Blinders</h3>
-
-                  <p class="card-text">Website / UX Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Design Zoom</h3>
-
-                  <p class="card-text">Branding / Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Out Zone</h3>
-
-                  <p class="card-text">UX Design / Web App</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <div class="slider-controls">
-            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
-              <div class="line"></div>
-              <div class="arrow"></div>
-            </button>
-
-            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
-              <div class="line"></div>
-              <div class="arrow"></div>
-            </button>
-          </div>
-
-        </div>
-
-      </section>
-
-
-
-
-
-      <!-- 
-        - #BLOG
-      -->
-
-      <section class="section blog" aria-labelledby="blog-label">
+      <section class="section section--alt" id="skills" aria-labelledby="skills-title">
         <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-subtitle">Technical Skills</p>
+            <h2 class="section-title" id="skills-title">Technical Skills</h2>
+          </div>
 
-          <p class="section-subtitle" id="blog-label">Recent Articles</p>
+          <div class="skills-layout">
+            <div class="reveal">
+              <p class="section-text section-text--lead">
+                I continuously expand my technical knowledge by building projects, participating in academic activities, and exploring new development technologies.
+              </p>
+            </div>
 
-          <h2 class="h2 section-title">Latest News</h2>
-
-          <ul class="blog-list">
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
-                  <img src="./assets/images/blog-1.jpg" width="700" height="470" loading="lazy"
-                    alt="Get Started With Tiktok Ads." class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <time class="time" datetime="2022-06-24">
-                    <span class="span text-lg">24</span>
-                    June 2022
-                  </time>
-
-                  <div>
-                    <h3 class="h3 card-title">Get Started With Tiktok Ads.</h3>
-
-                    <p class="card-text">
-                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
-                      ornare.
-                    </p>
-
-                    <a href="#" class="btn has-before">
-                      <span class="span">Read more</span>
-
-                      <ion-icon name="arrow-forward"></ion-icon>
-                    </a>
-                  </div>
-
-                </div>
-
+            <div class="skills-list reveal">
+              <div class="skill">
+                <div class="skill__meta"><span>HTML/CSS</span><span>90%</span></div>
+                <div class="skill__bar"><span style="width: 90%"></span></div>
               </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
-                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
-                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <time class="time" datetime="2022-06-27">
-                    <span class="span text-lg">27</span>
-                    June 2022
-                  </time>
-
-                  <div>
-                    <h3 class="h3 card-title">UX in Ecommerce – 5 things to avoid.</h3>
-
-                    <p class="card-text">
-                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
-                      ornare.
-                    </p>
-
-                    <a href="#" class="btn has-before">
-                      <span class="span">Read more</span>
-
-                      <ion-icon name="arrow-forward"></ion-icon>
-                    </a>
-                  </div>
-
-                </div>
-
+              <div class="skill">
+                <div class="skill__meta"><span>JavaScript</span><span>85%</span></div>
+                <div class="skill__bar"><span style="width: 85%"></span></div>
               </div>
-            </li>
-
-          </ul>
-
+              <div class="skill">
+                <div class="skill__meta"><span>PHP/Laravel</span><span>80%</span></div>
+                <div class="skill__bar"><span style="width: 80%"></span></div>
+              </div>
+              <div class="skill">
+                <div class="skill__meta"><span>Flutter</span><span>75%</span></div>
+                <div class="skill__bar"><span style="width: 75%"></span></div>
+              </div>
+              <div class="skill">
+                <div class="skill__meta"><span>MySQL</span><span>85%</span></div>
+                <div class="skill__bar"><span style="width: 85%"></span></div>
+              </div>
+              <div class="skill">
+                <div class="skill__meta"><span>UI/UX Design</span><span>70%</span></div>
+                <div class="skill__bar"><span style="width: 70%"></span></div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-subtitle">Featured Projects</p>
+            <h2 class="section-title" id="projects-title">Featured Projects</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <img src="./assets/images/studenmanagement.jpg" alt="Student Information System preview" class="project-card__image">
+              <div class="project-card__body">
+                <p class="project-card__category">Web Application</p>
+                <h3>Student Information System</h3>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="./assets/images/Inventory Management System.jpg" alt="Inventory Management System preview" class="project-card__image">
+              <div class="project-card__body">
+                <p class="project-card__category">Database Project</p>
+                <h3>Inventory Management System</h3>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="./assets/images/Mobile Attendance App.jpg" alt="Mobile Attendance App preview" class="project-card__image">
+              <div class="project-card__body">
+                <p class="project-card__category">Flutter Application</p>
+                <h3>Mobile Attendance App</h3>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="./assets/images/E-Commerce Website.jpg" alt="E-Commerce Website preview" class="project-card__image">
+              <div class="project-card__body">
+                <p class="project-card__category">Full-Stack Project</p>
+                <h3>E-Commerce Website</h3>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="./assets/images/Portfolio Website.jpg" alt="Portfolio Website preview" class="project-card__image">
+              <div class="project-card__body">
+                <p class="project-card__category">Personal Branding</p>
+                <h3>Portfolio Website</h3>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <img src="./assets/images/Task Management System.jpg" alt="Task Management System preview" class="project-card__image">
+              <div class="project-card__body">
+                <p class="project-card__category">Productivity Application</p>
+                <h3>Task Management System</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="experience" aria-labelledby="experience-title">
+        <div class="container two-col">
+          <div class="section-heading reveal">
+            <p class="section-subtitle">Education & Experience</p>
+            <h2 class="section-title" id="experience-title">Education & Experience</h2>
+          </div>
+          <div class="experience-card reveal">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>
+              Currently pursuing a degree in Information Technology while developing practical skills in software development, databases, and web technologies.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <p class="section-subtitle">Get In Touch</p>
+            <h2 class="section-title" id="contact-title">Get In Touch</h2>
+            <p class="section-text section-text--lead">
+              I am open to internships, collaborations, academic projects, and opportunities to gain experience in the technology industry.
+            </p>
+            <a class="contact-email" href="mailto:charlesmartinmotoy@example.com">charlesmartinmotoy@example.com</a>
+          </div>
+
+          <form class="contact-form reveal">
+            <div class="form-row">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" autocomplete="name">
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="Your email" autocomplete="email">
+              </label>
+            </div>
+            <label>
+              <span>Subject</span>
+              <input type="text" name="subject" placeholder="Project inquiry">
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" placeholder="Tell me about your project"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary">
+              <span>Send Message</span>
+              <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+        </div>
+      </section>
     </article>
   </main>
 
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
   <footer class="footer">
-    <div class="container">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__name">Charles Martin Motoy</p>
+        <p class="footer__role">BSIT Student & Aspiring Software Developer</p>
+      </div>
 
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Get in touch</p>
-        </li>
-
-        <li>
-          <a href="mailto:info@kwilliams.com" class="footer-link">info@kwilliams.com</a>
-        </li>
-
+      <ul class="social-list" aria-label="Social links">
+        <li><a href="#" class="social-link" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="#" class="social-link" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="#" class="social-link" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li><a href="mailto:charlesmartinmotoy@example.com" class="social-link" aria-label="Gmail"><ion-icon name="mail-outline"></ion-icon></a></li>
       </ul>
 
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Locations</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">San Francisco — California</a>
-        </li>
-
-      </ul>
-
-      <ul class="social-list">
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-dribbble"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-skype"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-
-      </ul>
-
+      <p class="footer__copyright">© 2026 Charles Martin Motoy. All Rights Reserved.</p>
     </div>
   </footer>
 
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>
+

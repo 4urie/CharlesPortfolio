@@ -1,173 +1,123 @@
-Kane Williams - Web & App Developer
-
-This is a personal portfolio html template made by codewithsadee
-
-
-
-#---------- HEADER ----------#
-
-alt = Pfolio home
-
-aria-label = Toggle menu
+Charles Martin Motoy - BSIT Student | Aspiring Web & Mobile Developer
 
 Home
-Resume
-Services
-Portfolio
-Blog
+About
+Skills
+Projects
+Experience
 Contact
-
 
 
 #---------- HERO ----------#
 
-Kane Williams
-Creative Web & App Developer
+Charles Martin Motoy
+BSIT Student & Aspiring Software Developer
 
-alt = kane williams
+Hello! I'm Charles Martin Motoy, a Bachelor of Science in Information Technology student passionate about web development, mobile applications, and modern digital solutions. I enjoy learning new technologies, building practical projects, and continuously improving my skills as a future software developer.
 
-Hi, I’m kane williams and I am creative web & app developer who dream making the world better place by creating captivating products.
-
-Download CV
-<ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+Download Resume
+View Projects
 
 
+#---------- ABOUT ----------#
 
-#---------- SERVICE ----------#
+About Me
 
-Services That I Provide
+I am an IT student dedicated to creating user-friendly and efficient applications. My interests include web development, mobile app development, UI/UX design, and database management. I enjoy solving problems through technology and working on projects that create meaningful impact.
 
-Services
 
-Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus ornare.
+#---------- SERVICES ----------#
 
-<ion-icon name="desktop-outline"></ion-icon>
-Website Design
+What I Do
 
-Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+Web Development
+Building responsive and modern websites.
 
-01
+Mobile App Development
+Creating Android and cross-platform applications.
 
-aria-label = More about my website design service
+UI/UX Design
+Designing clean and user-friendly interfaces.
 
-<ion-icon name="podium-outline"></ion-icon>
-SEO Marketing
-02
+Database Management
+Working with MySQL, Supabase, and data-driven systems.
 
-<ion-icon name="basket-outline"></ion-icon>
-eCommerce
-03
+Software Development
+Developing practical software solutions.
 
-<ion-icon name="color-filter-outline"></ion-icon>
-Graphic Design
-04
-
-<ion-icon name="megaphone-outline"></ion-icon>
-Digital Marketing
-05
-
-<ion-icon name="chatbubbles-outline"></ion-icon>
-Social Media
-06
-
-aria-label = Slide to previous item
-aria-label = Slide to next item
-
+Technical Support
+Troubleshooting and maintaining computer systems.
 
 
 #---------- SKILLS ----------#
 
-I Make The Future
+Technical Skills
 
-I Develop & Create Digital Future.
+HTML/CSS 90%
+JavaScript 85%
+PHP/Laravel 80%
+Flutter 75%
+MySQL 85%
+UI/UX Design 70%
 
-Pellentesque magna magna semper dapibus felis necatin aliuen risus. Pellentesque habitant morbi senectus dictum.
-
-Web design magna magna semper dapibus felis necatin aliuen risus. Pellentesque habitant morbi tristique senectus the neuse malesuada nullam ac lorem miss the duru.
-
-info@kwilliams.com
-
-Design
-90%
-
-Branding
-80%
-
-Web Design
-95%
-
-Social Media
-85%
+I continuously expand my technical knowledge by building projects, participating in academic activities, and exploring new development technologies.
 
 
+#---------- PROJECTS ----------#
 
-#---------- PORTFOLIO ----------#
+Featured Projects
 
-Our Works
+Student Information System
+Web Application
 
-Portfolio
+Inventory Management System
+Database Project
 
-Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus ornare.
+Mobile Attendance App
+Flutter Application
 
-alt = portfolio
+E-Commerce Website
+Full-Stack Project
 
-Lab. 001
-Website Design
+Portfolio Website
+Personal Branding
 
-Aer Agency
-Website / Development
-
-Joker Card
-UX Design / Web App
-
-Peaky Blinders
-Website / UX Design
-
-Design Zoom
-Branding / Design
-
-Out Zone
-UX Design / Web App
+Task Management System
+Productivity Application
 
 
+#---------- EXPERIENCE ----------#
 
-#---------- BLOG ----------#
+Education & Experience
 
-Recent Articles
+Bachelor of Science in Information Technology
 
-Latest News
+Currently pursuing a degree in Information Technology while developing practical skills in software development, databases, and web technologies.
 
-alt = Get Started With Tiktok Ads.
 
-24
-June 2022
+#---------- CONTACT ----------#
 
-Get Started With Tiktok Ads.
+Get In Touch
 
-Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt ornare.
+charlesmartinmotoy@example.com
 
-Read more
+I am open to internships, collaborations, academic projects, and opportunities to gain experience in the technology industry.
 
-<ion-icon name="arrow-forward"></ion-icon>
-
-alt = UX in Ecommerce – 5 things to avoid.
-
-27
-June 2022
-
-UX in Ecommerce – 5 things to avoid.
-
+Name
+Email
+Subject
+Message
+Send Message
 
 
 #---------- FOOTER ----------#
 
-Get in touch
-info@kwilliams.com
+Charles Martin Motoy
+BSIT Student & Aspiring Software Developer
 
-Locations
-San Francisco — California
+GitHub
+Facebook
+LinkedIn
+Gmail
 
-<ion-icon name="logo-dribbble"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-skype"></ion-icon>
-<ion-icon name="logo-linkedin"></ion-icon>
+© 2026 Charles Martin Motoy. All Rights Reserved.
